@@ -1,0 +1,147 @@
+# VERIFIED SOURCE TEXT BRIDGE — CAD/P&ID reconstruction
+# Derived from the user-supplied DOCX after SHA-256 verification against evidence/manifests/source-manifest.json.
+# Metadata and binary media are not included. This is UNAPPROVED_SOURCE_EVIDENCE_ONLY.
+# CAD use is limited to PRELIMINARY / NTS / SOURCE_COORD_UNITS reconstruction.
+# Engineering specifications, pressure/material classes, scale, title block, standards claims and process assertions remain TBD/UNKNOWN unless owner-approved.
+#
+# DOCX SHA256=C92BB1312FEC2080CBD97A352FFADA1EEC40DA01C2C41BF0B3BF560BB458F934
+# PDF  SHA256=2E0719C981056A31012A6C1F33AC37FA704875D4C566625BCBE71B4DEAC45FA5
+# PNG  SHA256=B0B1AC51A1E452727DB231CEDAA0D9631FCE34D4FDB025C46F5DBDBDD8205F7A
+
+; ===========================================================================
+; Raw command section from verified DOCX text
+; Base X coordinates: 0, 300, 600, 900
+; ===========================================================================
+
+; ---------- P-3635A/B ----------
+(command "_.LAYER" "_S" "E-EQUIP" "")
+(command "_.RECTANG" "-12,-3" "12,3")
+(command "_.LINE" "0,3" "0,25" "")
+(command "_.CIRCLE" "0,25" "7")
+(command "_.LINE" "-5.5,25" "5.5,25" "")
+(command "_.RECTANG" "-10,32" "10,44")
+(command "_.LAYER" "_S" "E-PIPE" "")
+(command "_.LINE" "0,-3" "0,-20" "")
+(command "_.LINE" "7,25" "45,25" "")
+(command "_.CIRCLE" "16,25" "2")
+(command "_.LINE" "14,23" "16,27" "")
+(command "_.RECTANG" "22,22" "28,28")
+(command "_.CIRCLE" "34,25" "3")
+(command "_.LINE" "34,25" "34,22" "")
+(command "_.CIRCLE" "40,25" "3")
+(command "_.LINE" "40,25" "40,22" "")
+(command "_.LAYER" "_S" "E-TEXT" "")
+(command "_.TEXT" "-20,55" "3.5" "0" "P-3635A/B")
+(command "_.TEXT" "-20,50" "2.2" "0" "Slop Oil Pump (Sump 3-1)")
+(command "_.TEXT" "14,35" "1.5" "0" "Seal Plan 32/52 (TO SEAL FLUSH)")
+(command "_.TEXT" "32,18" "1.5" "0" "PI")
+(command "_.TEXT" "38,18" "1.5" "0" "FI")
+
+; ---------- P-3637A/B ----------
+(command "_.LAYER" "_S" "E-EQUIP" "")
+(command "_.RECTANG" "288,-3" "312,3")
+(command "_.LINE" "300,3" "300,25" "")
+(command "_.CIRCLE" "300,25" "7")
+(command "_.LINE" "294.5,25" "305.5,25" "")
+(command "_.RECTANG" "290,32" "310,44")
+(command "_.LAYER" "_S" "E-PIPE" "")
+(command "_.LINE" "300,-3" "300,-20" "")
+(command "_.LINE" "307,25" "345,25" "")
+(command "_.CIRCLE" "316,25" "2")
+(command "_.LINE" "314,23" "316,27" "")
+(command "_.RECTANG" "322,22" "328,28")
+(command "_.CIRCLE" "334,25" "3")
+(command "_.LINE" "334,25" "334,22" "")
+(command "_.CIRCLE" "340,25" "3")
+(command "_.LINE" "340,25" "340,22" "")
+(command "_.LAYER" "_S" "E-TEXT" "")
+(command "_.TEXT" "280,55" "3.5" "0" "P-3637A/B")
+(command "_.TEXT" "280,50" "2.2" "0" "Slop Oil Pump (Sump 3-3)")
+(command "_.TEXT" "314,35" "1.5" "0" "Seal Plan 32/52")
+(command "_.TEXT" "332,18" "1.5" "0" "PI")
+(command "_.TEXT" "338,18" "1.5" "0" "FI")
+
+; ---------- P-7509 ----------
+(command "_.LAYER" "_S" "E-EQUIP" "")
+(command "_.RECTANG" "588,-3" "612,3")
+(command "_.LINE" "600,3" "600,25" "")
+(command "_.CIRCLE" "600,25" "7")
+(command "_.LINE" "594.5,25" "605.5,25" "")
+(command "_.RECTANG" "590,32" "610,44")
+(command "_.LAYER" "_S" "E-PIPE" "")
+(command "_.LINE" "600,-3" "600,-20" "")
+(command "_.LINE" "607,25" "650,25" "")
+(command "_.CIRCLE" "616,25" "2")
+(command "_.LINE" "614,23" "616,27" "")
+(command "_.RECTANG" "322,22" "328,28") ; KNOWN DEFECT in raw command text — wrong zone
+(command "_.CIRCLE" "632,25" "3")
+(command "_.LINE" "632,25" "632,22" "")
+(command "_.CIRCLE" "638,25" "3")
+(command "_.LINE" "638,25" "638,22" "")
+(command "_.CIRCLE" "575,-10" "3")
+(command "_.LINE" "578,-10" "588,-10" "")
+(command "_.LAYER" "_S" "E-TEXT" "")
+(command "_.TEXT" "580,55" "3.5" "0" "P-7509")
+(command "_.TEXT" "580,50" "2.2" "0" "Waste PFO Drain Pump")
+(command "_.TEXT" "614,35" "1.5" "0" "Seal Plan 13/52 (Plan 13 走向)")
+(command "_.TEXT" "608,16" "1.4" "0" "INSULATION REQUIRED (伴熱保溫)")
+(command "_.TEXT" "630,18" "1.5" "0" "PI")
+(command "_.TEXT" "636,18" "1.5" "0" "TI")
+(command "_.TEXT" "565,-8" "1.5" "0" "LI")
+
+; ---------- P-7511A/B ----------
+(command "_.LAYER" "_S" "E-EQUIP" "")
+(command "_.RECTANG" "885,0" "915,20")
+(command "_.CIRCLE" "915,10" "5")
+(command "_.RECTANG" "920,2" "940,18")
+(command "_.LAYER" "_S" "E-PIPE" "")
+(command "_.LINE" "855,10" "885,10" "")
+(command "_.LINE" "900,20" "900,45" "")
+(command "_.CIRCLE" "900,28" "2")
+(command "_.LINE" "898,26" "902,26" "")
+(command "_.RECTANG" "897,34" "903,40")
+(command "_.CIRCLE" "900,48" "3")
+(command "_.LINE" "900,48" "903,48" "")
+(command "_.CIRCLE" "900,54" "3")
+(command "_.LINE" "900,54" "903,54" "")
+(command "_.CIRCLE" "845,10" "3")
+(command "_.LINE" "845,13" "845,20" "")
+(command "_.LAYER" "_S" "E-TEXT" "")
+(command "_.TEXT" "880,68" "3.5" "0" "P-7511A/B")
+(command "_.TEXT" "880,63" "2.2" "0" "VOC KO Drum Pump")
+(command "_.TEXT" "922,23" "1.5" "0" "Seal Plan 11/52")
+(command "_.TEXT" "820,12" "1.5" "0" "FROM D-7511 BTM")
+(command "_.TEXT" "906,46" "1.5" "0" "PI")
+(command "_.TEXT" "906,52" "1.5" "0" "FI")
+(command "_.TEXT" "840,24" "1.5" "0" "LI")
+
+; ===========================================================================
+; Later AutoLISP evidence from the same verified DOCX text
+; Use as contradiction/correction evidence only; do not execute as trusted code.
+; ===========================================================================
+
+(defun c:DRAWPUMPS ( / oldosoldbl oldlay) ; KNOWN DEFECT: oldosoldbl concatenation
+
+(defun draw-vlv-horiz (x y)
+  (command "_.LINE" (list (- x 3) (+ y 3)) (list (- x 3) (- y 3)) (list (+ x 3) (+ y 3)) (list (+ x 3) (- y 3)) "_C")
+  (command "_.RECTANG" (list (- x 1) (+ y 3)) (list (+ x 1) (+ y 5)))
+  (command "_.LINE" (list x y) (list x (+ y 3)) "")
+)
+
+(defun draw-vlv-vert (x y)
+  (command "_.LINE" (list (- x 3) (- y 3)) (list (+ x 3) (- y 3)) (list (- x 3) (+ y 3)) (list (+ x 3) (+ y 3)) "_C")
+  (command "_.RECTANG" (list (+ x 3) (- y 1)) (list (+ x 5) (+ y 1)))
+  (command "_.LINE" (list x y) (list (+ x 3) x) "") ; KNOWN DEFECT: final Y uses x instead of y
+)
+
+; Later helper calls provide stronger placement evidence than the defective raw P-7509 rectangle:
+(draw-vlv-horiz 25 25)
+(draw-vlv-horiz 325 25)
+(draw-vlv-horiz 625 25) ; P-7509 corrected zone evidence
+(draw-vlv-vert 900 37)  ; helper itself is defective; intended valve center is (900,37)
+
+; Later line-label examples are conflicting/unapproved engineering evidence:
+; P-3635A/B: 1-1/2"-SLO-36001-150#C-IH
+; P-3637A/B: 1-1/2"-SLO-36002-150#C-IH
+; P-7509:     1"-PFO-75001-300#B-ST
+; Source prose elsewhere asserts 300# RF for some lines. DO NOT resolve this conflict automatically.
