@@ -1,0 +1,27 @@
+{
+  "protocol": "CADPID_VERIFIED_SOURCE_BRIDGE_V1",
+  "source_manifest_match": true,
+  "sources": [
+    {
+      "name": "20260827 20260827 四組可立即执行的 AutoCAD 脚本（.scr）.docx",
+      "size_bytes": 3231972,
+      "sha256": "C92BB1312FEC2080CBD97A352FFADA1EEC40DA01C2C41BF0B3BF560BB458F934"
+    },
+    {
+      "name": "20260827 20260827 四組可立即执行的 AutoCAD 脚本（.scr）.pdf",
+      "size_bytes": 945879,
+      "sha256": "2E0719C981056A31012A6C1F33AC37FA704875D4C566625BCBE71B4DEAC45FA5"
+    },
+    {
+      "name": "codex-clipboard-93e75aeb-aacf-44c3-9685-d06eb63a064f.png",
+      "size_bytes": 920962,
+      "sha256": "B0B1AC51A1E452727DB231CEDAA0D9631FCE34D4FDB025C46F5DBDBDD8205F7A"
+    }
+  ],
+  "derived_file": "evidence/derived/verified-source-script-extract.txt",
+  "extraction_method": "OOXML word/document.xml paragraph text; metadata and binary media not included",
+  "engineering_authority": "UNAPPROVED_SOURCE_EVIDENCE_ONLY",
+  "cad_use": "PRELIMINARY_NTS_SOURCE_COORD_UNITS",
+  "unresolved_spec_policy": "TBD_UNKNOWN_OR_OMIT",
+  "control_note": "Source binaries remain withheld from the public repository. This bridge exists to unblock preliminary CAD reconstruction without publishing Office/PDF metadata."
+}
