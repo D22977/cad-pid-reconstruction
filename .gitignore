@@ -1,0 +1,20 @@
+# Generated CAD deliverables are not committed before approval.
+output/dxf/*.dxf
+output/dwg/*.dwg
+
+# Local analysis/rendering products.
+.venv/
+__pycache__/
+*.pyc
+tmp/
+rendered-pages/
+
+# CAD/editor temporary files.
+*.bak
+*.dwl
+*.dwl2
+*.sv$
+
+# Original evidence is intentionally withheld from the public repository until
+# metadata/privacy review is explicitly completed.
+evidence/originals/
