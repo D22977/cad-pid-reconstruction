@@ -1,0 +1,238 @@
+{
+  "audit": {
+    "fixed_errors": 0,
+    "unrecoverable_errors": 0
+  },
+  "bbox": {
+    "max_x": 950.0,
+    "max_y": 74.0,
+    "min_x": -25.0,
+    "min_y": -24.0
+  },
+  "card_id": "CADPID-DXF-CANARY-02",
+  "coordinate_system": "SOURCE_COORD_UNITS",
+  "defect_regressions": {
+    "oldosoldbl_not_carried": {
+      "passed": true
+    },
+    "p7509_control_valve_zone": {
+      "center_x": 625,
+      "expected_zone": [
+        600,
+        650
+      ],
+      "not_in_p3637_zone": true,
+      "passed": true
+    },
+    "unresolved_ratings_not_emitted": {
+      "passed": true
+    },
+    "vertical_valve_outlier": {
+      "endpoint": [
+        903,
+        37
+      ],
+      "known_bad_endpoint": [
+        903,
+        900
+      ],
+      "max_y": 74.0,
+      "passed": true
+    }
+  },
+  "dxf_sha256": "6FC7218D89203BEE92919A0D920B6BB3796F1DE00F9FED9AB1B1240D509A64D0",
+  "dxf_version": "AC1032",
+  "encoding": "ASCII",
+  "entity_inventory": {
+    "by_layer": {
+      "E-EQUIP": {
+        "CIRCLE": 4,
+        "LINE": 6,
+        "LWPOLYLINE": 8
+      },
+      "E-FRAME": {
+        "LWPOLYLINE": 1,
+        "TEXT": 3
+      },
+      "E-INST": {
+        "CIRCLE": 10,
+        "LINE": 10
+      },
+      "E-PIPE": {
+        "CIRCLE": 4,
+        "LINE": 32,
+        "LWPOLYLINE": 4
+      },
+      "E-TEXT": {
+        "TEXT": 24
+      }
+    },
+    "by_type": {
+      "CIRCLE": 18,
+      "LINE": 48,
+      "LWPOLYLINE": 13,
+      "TEXT": 27
+    },
+    "total": 106
+  },
+  "equipment_tags": {
+    "P-3635A/B": 1,
+    "P-3637A/B": 1,
+    "P-7509": 1,
+    "P-7511A/B": 1
+  },
+  "exact_base_sha": "88522ac283621832157b53ed1f3c238de146e835",
+  "exact_head_sha": null,
+  "generation": 3,
+  "layers": [
+    "0",
+    "Defpoints",
+    "E-EQUIP",
+    "E-FRAME",
+    "E-INST",
+    "E-PIPE",
+    "E-TEXT"
+  ],
+  "normalized_inventory": {
+    "bbox": {
+      "max_x": 950.0,
+      "max_y": 74.0,
+      "min_x": -25.0,
+      "min_y": -24.0
+    },
+    "defect_regressions": {
+      "oldosoldbl_not_carried": {
+        "passed": true
+      },
+      "p7509_control_valve_zone": {
+        "center_x": 625,
+        "expected_zone": [
+          600,
+          650
+        ],
+        "not_in_p3637_zone": true,
+        "passed": true
+      },
+      "unresolved_ratings_not_emitted": {
+        "passed": true
+      },
+      "vertical_valve_outlier": {
+        "endpoint": [
+          903,
+          37
+        ],
+        "known_bad_endpoint": [
+          903,
+          900
+        ],
+        "max_y": 74.0,
+        "passed": true
+      }
+    },
+    "entities": {
+      "by_layer": {
+        "E-EQUIP": {
+          "CIRCLE": 4,
+          "LINE": 6,
+          "LWPOLYLINE": 8
+        },
+        "E-FRAME": {
+          "LWPOLYLINE": 1,
+          "TEXT": 3
+        },
+        "E-INST": {
+          "CIRCLE": 10,
+          "LINE": 10
+        },
+        "E-PIPE": {
+          "CIRCLE": 4,
+          "LINE": 32,
+          "LWPOLYLINE": 4
+        },
+        "E-TEXT": {
+          "TEXT": 24
+        }
+      },
+      "by_type": {
+        "CIRCLE": 18,
+        "LINE": 48,
+        "LWPOLYLINE": 13,
+        "TEXT": 27
+      },
+      "total": 106
+    },
+    "layers": [
+      "E-EQUIP",
+      "E-FRAME",
+      "E-INST",
+      "E-PIPE",
+      "E-TEXT"
+    ],
+    "required_tag_counts": {
+      "P-3635A/B": 1,
+      "P-3637A/B": 1,
+      "P-7509": 1,
+      "P-7511A/B": 1
+    },
+    "text_counts": {
+      "ENGINEERING FIELDS: TBD / UNKNOWN": 1,
+      "FI": 3,
+      "FROM D-7511 BTM": 1,
+      "INSULATION: UNKNOWN": 1,
+      "LI": 2,
+      "P-3635A/B": 1,
+      "P-3637A/B": 1,
+      "P-7509": 1,
+      "P-7511A/B": 1,
+      "PI": 4,
+      "PRELIMINARY - NOT FOR ENGINEERING RELEASE": 1,
+      "SOURCE_COORD_UNITS / NTS": 1,
+      "Seal Plan 11/52": 1,
+      "Seal Plan 13/52 (SOURCE NOTE)": 1,
+      "Seal Plan 32/52": 1,
+      "Seal Plan 32/52 (TO SEAL FLUSH)": 1,
+      "Slop Oil Pump (Sump 3-1)": 1,
+      "Slop Oil Pump (Sump 3-3)": 1,
+      "TI": 1,
+      "VOC KO Drum Pump": 1,
+      "Waste PFO Drain Pump": 1
+    }
+  },
+  "preliminary_non_release": true,
+  "runtime": {
+    "ezdxf": "1.4.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.6"
+  },
+  "scale": "NTS",
+  "source_hash_precondition": "PASS_ALL_THREE_REQUIRED",
+  "source_hashes_used": {
+    "docx": {
+      "filename": "20260827 20260827 四組可立即执行的 AutoCAD 脚本（.scr）.docx",
+      "sha256": "C92BB1312FEC2080CBD97A352FFADA1EEC40DA01C2C41BF0B3BF560BB458F934",
+      "size_bytes": 3231972,
+      "verification": "PASS"
+    },
+    "pdf": {
+      "filename": "20260827 20260827 四組可立即执行的 AutoCAD 脚本（.scr）.pdf",
+      "sha256": "2E0719C981056A31012A6C1F33AC37FA704875D4C566625BCBE71B4DEAC45FA5",
+      "size_bytes": 945879,
+      "verification": "PASS"
+    },
+    "png": {
+      "filename": "codex-clipboard-93e75aeb-aacf-44c3-9685-d06eb63a064f.png",
+      "sha256": "B0B1AC51A1E452727DB231CEDAA0D9631FCE34D4FDB025C46F5DBDBDD8205F7A",
+      "size_bytes": 920962,
+      "verification": "PASS"
+    }
+  },
+  "unresolved_engineering_fields": [
+    "drawing class and owner acceptance",
+    "units and true scale",
+    "line size/rating/material class",
+    "insulation and heat tracing",
+    "pump type/detail standard",
+    "symbol standard",
+    "title-block data and revision"
+  ]
+}

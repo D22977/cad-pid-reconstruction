@@ -1,0 +1,165 @@
+{
+  "card_id": "CADPID-DXF-CANARY-02",
+  "generation": 3,
+  "coordinate_system": "SOURCE_COORD_UNITS",
+  "scale": "NTS",
+  "source_evidence": {
+    "docx": {
+      "filename": "20260827 20260827 四組可立即执行的 AutoCAD 脚本（.scr）.docx",
+      "size_bytes": 3231972,
+      "sha256": "C92BB1312FEC2080CBD97A352FFADA1EEC40DA01C2C41BF0B3BF560BB458F934",
+      "verification": "PASS"
+    },
+    "pdf": {
+      "filename": "20260827 20260827 四組可立即执行的 AutoCAD 脚本（.scr）.pdf",
+      "size_bytes": 945879,
+      "sha256": "2E0719C981056A31012A6C1F33AC37FA704875D4C566625BCBE71B4DEAC45FA5",
+      "verification": "PASS"
+    },
+    "png": {
+      "filename": "codex-clipboard-93e75aeb-aacf-44c3-9685-d06eb63a064f.png",
+      "size_bytes": 920962,
+      "sha256": "B0B1AC51A1E452727DB231CEDAA0D9631FCE34D4FDB025C46F5DBDBDD8205F7A",
+      "verification": "PASS"
+    }
+  },
+  "source_envelope": {
+    "min_x": -25,
+    "max_x": 950,
+    "min_y": -25,
+    "max_y": 74,
+    "basis": "source command extents plus explicit preliminary frame margin"
+  },
+  "layers": ["E-EQUIP", "E-PIPE", "E-INST", "E-TEXT", "E-FRAME"],
+  "frame": {
+    "corners": [[-25, -24], [950, 74]],
+    "texts": [
+      {"at": [-20, 72], "height": 2.5, "value": "PRELIMINARY - NOT FOR ENGINEERING RELEASE"},
+      {"at": [-20, 67], "height": 2.0, "value": "SOURCE_COORD_UNITS / NTS"},
+      {"at": [-20, 62], "height": 1.5, "value": "ENGINEERING FIELDS: TBD / UNKNOWN"}
+    ]
+  },
+  "unresolved_engineering_fields": [
+    "drawing class and owner acceptance",
+    "units and true scale",
+    "line size/rating/material class",
+    "insulation and heat tracing",
+    "pump type/detail standard",
+    "symbol standard",
+    "title-block data and revision"
+  ],
+  "equipment": [
+    {
+      "tag": "P-3635A/B",
+      "kind": "vertical_sump_pump",
+      "description": "Slop Oil Pump (Sump 3-1)",
+      "geometry": {
+        "baseplate": [[-12, -3], [12, 3]],
+        "column": [[0, 3], [0, 25]],
+        "casing": {"center": [0, 25], "radius": 7},
+        "impeller": [[-5.5, 25], [5.5, 25]],
+        "motor": [[-10, 32], [10, 44]],
+        "suction": [[0, -3], [0, -20]],
+        "discharge": [[7, 25], [45, 25]]
+      },
+      "check_valve": {"center": [16, 25], "radius": 2, "cross": [[14, 23], [16, 27]]},
+      "control_valve": {"orientation": "horizontal", "center": [25, 25], "endpoint": [25, 28]},
+      "instruments": [
+        {"tag": "PI", "center": [34, 25], "radius": 3, "leader": [[34, 25], [34, 22]]},
+        {"tag": "FI", "center": [40, 25], "radius": 3, "leader": [[40, 25], [40, 22]]}
+      ],
+      "texts": [
+        {"at": [-20, 55], "height": 3.5, "value": "P-3635A/B"},
+        {"at": [-20, 50], "height": 2.2, "value": "Slop Oil Pump (Sump 3-1)"},
+        {"at": [14, 35], "height": 1.5, "value": "Seal Plan 32/52 (TO SEAL FLUSH)"},
+        {"at": [32, 18], "height": 1.5, "value": "PI"},
+        {"at": [38, 18], "height": 1.5, "value": "FI"}
+      ]
+    },
+    {
+      "tag": "P-3637A/B",
+      "kind": "vertical_sump_pump",
+      "description": "Slop Oil Pump (Sump 3-3)",
+      "geometry": {
+        "baseplate": [[288, -3], [312, 3]],
+        "column": [[300, 3], [300, 25]],
+        "casing": {"center": [300, 25], "radius": 7},
+        "impeller": [[294.5, 25], [305.5, 25]],
+        "motor": [[290, 32], [310, 44]],
+        "suction": [[300, -3], [300, -20]],
+        "discharge": [[307, 25], [345, 25]]
+      },
+      "check_valve": {"center": [316, 25], "radius": 2, "cross": [[314, 23], [316, 27]]},
+      "control_valve": {"orientation": "horizontal", "center": [325, 25], "endpoint": [325, 28]},
+      "instruments": [
+        {"tag": "PI", "center": [334, 25], "radius": 3, "leader": [[334, 25], [334, 22]]},
+        {"tag": "FI", "center": [340, 25], "radius": 3, "leader": [[340, 25], [340, 22]]}
+      ],
+      "texts": [
+        {"at": [280, 55], "height": 3.5, "value": "P-3637A/B"},
+        {"at": [280, 50], "height": 2.2, "value": "Slop Oil Pump (Sump 3-3)"},
+        {"at": [314, 35], "height": 1.5, "value": "Seal Plan 32/52"},
+        {"at": [332, 18], "height": 1.5, "value": "PI"},
+        {"at": [338, 18], "height": 1.5, "value": "FI"}
+      ]
+    },
+    {
+      "tag": "P-7509",
+      "kind": "vertical_sump_pump",
+      "description": "Waste PFO Drain Pump",
+      "geometry": {
+        "baseplate": [[588, -3], [612, 3]],
+        "column": [[600, 3], [600, 25]],
+        "casing": {"center": [600, 25], "radius": 7},
+        "impeller": [[594.5, 25], [605.5, 25]],
+        "motor": [[590, 32], [610, 44]],
+        "suction": [[600, -3], [600, -20]],
+        "discharge": [[607, 25], [650, 25]]
+      },
+      "check_valve": {"center": [616, 25], "radius": 2, "cross": [[614, 23], [616, 27]]},
+      "control_valve": {"orientation": "horizontal", "center": [625, 25], "endpoint": [625, 28]},
+      "instruments": [
+        {"tag": "PI", "center": [632, 25], "radius": 3, "leader": [[632, 25], [632, 22]]},
+        {"tag": "TI", "center": [638, 25], "radius": 3, "leader": [[638, 25], [638, 22]]},
+        {"tag": "LI", "center": [575, -10], "radius": 3, "leader": [[578, -10], [588, -10]]}
+      ],
+      "texts": [
+        {"at": [580, 55], "height": 3.5, "value": "P-7509"},
+        {"at": [580, 50], "height": 2.2, "value": "Waste PFO Drain Pump"},
+        {"at": [614, 35], "height": 1.5, "value": "Seal Plan 13/52 (SOURCE NOTE)"},
+        {"at": [608, 16], "height": 1.4, "value": "INSULATION: UNKNOWN"},
+        {"at": [630, 18], "height": 1.5, "value": "PI"},
+        {"at": [636, 18], "height": 1.5, "value": "TI"},
+        {"at": [565, -8], "height": 1.5, "value": "LI"}
+      ]
+    },
+    {
+      "tag": "P-7511A/B",
+      "kind": "horizontal_voc_pump",
+      "description": "VOC KO Drum Pump",
+      "geometry": {
+        "baseplate": [[885, 0], [915, 20]],
+        "coupling": {"center": [915, 10], "radius": 5},
+        "motor": [[920, 2], [940, 18]],
+        "suction": [[855, 10], [885, 10]],
+        "discharge": [[900, 20], [900, 45]]
+      },
+      "check_valve": {"center": [900, 28], "radius": 2, "cross": [[898, 26], [902, 26]]},
+      "control_valve": {"orientation": "vertical", "center": [900, 37], "endpoint": [903, 37]},
+      "instruments": [
+        {"tag": "PI", "center": [900, 48], "radius": 3, "leader": [[900, 48], [903, 48]]},
+        {"tag": "FI", "center": [900, 54], "radius": 3, "leader": [[900, 54], [903, 54]]},
+        {"tag": "LI", "center": [845, 10], "radius": 3, "leader": [[845, 13], [845, 20]]}
+      ],
+      "texts": [
+        {"at": [880, 68], "height": 3.5, "value": "P-7511A/B"},
+        {"at": [880, 63], "height": 2.2, "value": "VOC KO Drum Pump"},
+        {"at": [922, 23], "height": 1.5, "value": "Seal Plan 11/52"},
+        {"at": [820, 12], "height": 1.5, "value": "FROM D-7511 BTM"},
+        {"at": [906, 46], "height": 1.5, "value": "PI"},
+        {"at": [906, 52], "height": 1.5, "value": "FI"},
+        {"at": [840, 24], "height": 1.5, "value": "LI"}
+      ]
+    }
+  ]
+}
