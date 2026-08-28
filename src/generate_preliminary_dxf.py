@@ -7,6 +7,7 @@ import hashlib
 import json
 from pathlib import Path
 import platform
+import re
 import sys
 from typing import Any
 
@@ -15,6 +16,7 @@ import ezdxf
 
 REQUIRED_LAYERS = ("E-EQUIP", "E-PIPE", "E-INST", "E-TEXT", "E-FRAME")
 REQUIRED_TAGS = ("P-3635A/B", "P-3637A/B", "P-7509", "P-7511A/B")
+REQUIRED_SOURCE_EVIDENCE = frozenset(("docx", "pdf", "png"))
 EXACT_BASE_SHA = "88522ac283621832157b53ed1f3c238de146e835"
 P7509_ZONE = (600, 650)
 
@@ -34,11 +36,16 @@ def validate_model(model: dict[str, Any]) -> dict[str, Any]:
         raise ValueError("candidate layer set is incomplete or reordered")
     if {item.get("tag") for item in model.get("equipment", [])} != set(REQUIRED_TAGS):
         raise ValueError("required equipment tags are incomplete")
-    for name, evidence in model.get("source_evidence", {}).items():
+    source_evidence = model.get("source_evidence")
+    if not isinstance(source_evidence, dict) or set(source_evidence) != REQUIRED_SOURCE_EVIDENCE:
+        raise ValueError("source evidence must contain exactly docx, pdf, and png keys")
+    for name in REQUIRED_SOURCE_EVIDENCE:
+        evidence = source_evidence[name]
         if evidence.get("verification") != "PASS":
             raise ValueError(f"source evidence {name} was not verified")
-        if len(evidence.get("sha256", "")) != 64:
-            raise ValueError(f"source evidence {name} has no SHA-256")
+        sha256 = evidence.get("sha256")
+        if not isinstance(sha256, str) or re.fullmatch(r"[0-9a-fA-F]{64}", sha256) is None:
+            raise ValueError(f"source evidence {name} has no real SHA-256 digest")
     envelope = model["source_envelope"]
     for equipment in model["equipment"]:
         valve = equipment["control_valve"]

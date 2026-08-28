@@ -42,6 +42,30 @@ def test_source_bound_model_contains_required_tags_and_safe_unresolved_fields():
     assert "300# RF" not in "\n".join(values)
 
 
+def test_source_evidence_rejects_missing_required_key():
+    model = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    del model["source_evidence"]["png"]
+
+    with pytest.raises(ValueError, match="exactly.*docx.*pdf.*png"):
+        validate_model(model)
+
+
+def test_source_evidence_rejects_extra_key():
+    model = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    model["source_evidence"]["jpg"] = copy.deepcopy(model["source_evidence"]["png"])
+
+    with pytest.raises(ValueError, match="exactly.*docx.*pdf.*png"):
+        validate_model(model)
+
+
+def test_source_evidence_rejects_non_hex_sha256_digest():
+    model = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    model["source_evidence"]["docx"]["sha256"] = "g" * 64
+
+    with pytest.raises(ValueError, match="real SHA-256"):
+        validate_model(model)
+
+
 def test_defect_regressions_bind_p7509_valve_and_reject_vertical_outlier():
     model = load_model(DATA_PATH)
     summary = summarize_document(build_document(model), model)
