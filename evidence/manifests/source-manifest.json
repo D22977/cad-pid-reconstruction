@@ -1,0 +1,44 @@
+{
+  "manifest_version": "1.0",
+  "created_at": "2026-08-28T00:00:00+08:00",
+  "public_release_status": "MANIFEST_PUBLIC_ORIGINAL_BINARIES_WITHHELD_FOR_METADATA_PRIVACY",
+  "sources": [
+    {
+      "filename": "20260827 20260827 四組可立即执行的 AutoCAD 脚本（.scr）.docx",
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size_bytes": 3231972,
+      "sha256": "C92BB1312FEC2080CBD97A352FFADA1EEC40DA01C2C41BF0B3BF560BB458F934",
+      "role": "original uploaded document",
+      "notes": [
+        "Valid OOXML Word container",
+        "Contains three embedded PNG images",
+        "Contains no embedded DWG, DXF, SCR, LSP, or OLE CAD object",
+        "Contains office author metadata; value intentionally omitted from this public manifest"
+      ]
+    },
+    {
+      "filename": "20260827 20260827 四組可立即执行的 AutoCAD 脚本（.scr）.pdf",
+      "media_type": "application/pdf",
+      "size_bytes": 945879,
+      "sha256": "2E0719C981056A31012A6C1F33AC37FA704875D4C566625BCBE71B4DEAC45FA5",
+      "role": "stable 16-page rendering",
+      "notes": [
+        "A4, 16 pages",
+        "Word/PDFMaker production path; not an AutoCAD export",
+        "May contain author metadata; value intentionally omitted from this public manifest"
+      ]
+    },
+    {
+      "filename": "codex-clipboard-93e75aeb-aacf-44c3-9685-d06eb63a064f.png",
+      "media_type": "image/png",
+      "size_bytes": 920962,
+      "sha256": "B0B1AC51A1E452727DB231CEDAA0D9631FCE34D4FDB025C46F5DBDBDD8205F7A",
+      "role": "raster visual reference",
+      "notes": [
+        "AutoCAD-like screenshot",
+        "Not a vector CAD source and not dimensionally authoritative"
+      ]
+    }
+  ],
+  "public_repository": "D22977/cad-pid-reconstruction"
+}
