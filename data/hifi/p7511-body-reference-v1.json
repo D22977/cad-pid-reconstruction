@@ -1,0 +1,50 @@
+{
+  "protocol": "CADPID_HIFI_P7511_BODY_REFERENCE_V1",
+  "card_id": "CADPID-HIFI-P7511-BODY-REPAIR-01",
+  "station": "P-7511A/B",
+  "drawing_status": ["NTS", "PRELIMINARY", "NON-RELEASE"],
+  "reference_envelope": {
+    "width": 850,
+    "height": 520,
+    "ratio": 1.6346153846153846,
+    "basis": "reference drawing dimensions, visual reconstruction only"
+  },
+  "geometry_contract": {
+    "main_view": "middle side/front elevation",
+    "shaft_axis_fraction": 0.423,
+    "suction": "left vertical suction flange face/stub leading into pump casing along shaft axis",
+    "casing": "large asymmetric old-style volute, fuller/lower near baseline and narrowing upward",
+    "discharge": "short integral neck with horizontal top flange",
+    "coupling": "compact bearing/coupling zone shorter than motor",
+    "motor": {
+      "location": "right half",
+      "minimum_visible_rib_lines": 12,
+      "terminal_box": "prominent top box",
+      "rear_end": "rounded/boxed end cap"
+    },
+    "support": "pump and motor feet aligned to a thin common baseline"
+  },
+  "source_priority": [
+    "owner reference geometry contract",
+    "Issue #26 comment 5460679505",
+    "Issue #24 comment 5460380680",
+    "verified project source text"
+  ],
+  "deferred_content": [
+    "instrument bubbles",
+    "valve train",
+    "long suction/discharge process piping",
+    "seal-plan annotation",
+    "title block",
+    "vertical pumps",
+    "manufacturer identity",
+    "actual installed dimensions",
+    "pressure/material/class/rating/flow/head/spec values"
+  ],
+  "provenance": {
+    "basis": "Control-transcribed owner geometry contract",
+    "owner_scope": "Issue #26 comment 5460679505",
+    "control": "Issue #3 comment 5460730590"
+  }
+}
+
