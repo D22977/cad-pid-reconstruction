@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<title>P-7511A/B high-fidelity editable-vector canary preview</title>
+<rect width="1200" height="700" fill="#f7f9fc" />
+<style>
+.equip{fill:#d8e6ff;stroke:#174ea6;stroke-width:2.2}
+.support{fill:#e8ddc8;stroke:#76521f;stroke-width:2}
+.motor{fill:#d6d6ef;stroke:#34348f;stroke-width:2.2}
+.coupling{fill:none;stroke:#9b3b7d;stroke-width:2.2}
+.pipe{fill:none;stroke:#16803c;stroke-width:2.2}
+.valve{fill:#fff0c2;stroke:#a66a00;stroke-width:2.2}
+.instrument{fill:#fff;stroke:#b22222;stroke-width:2}
+.label{font-family:Arial,sans-serif;fill:#17202a}
+.note{font-family:Arial,sans-serif;fill:#4a5568}
+.center{fill:none;stroke:#8994a4;stroke-width:1;stroke-dasharray:5 4}
+</style>
+<line class="center" x1="-231.00" y1="500.00" x2="729.00" y2="500.00" />
+<polyline class="equip" points="105.00,532.00 121.00,548.00 161.00,560.00 225.00,564.00 281.00,552.00 321.00,524.00 337.00,500.00 329.00,472.00 305.00,444.00 265.00,424.00 225.00,420.00 185.00,428.00 153.00,440.00 121.00,468.00 105.00,500.00 105.00,532.00" />
+<circle class="coupling" cx="225.00" cy="500.00" r="60.00" />
+<circle class="coupling" cx="225.00" cy="500.00" r="36.00" />
+<polyline class="equip" points="9.00,516.00 105.00,516.00 105.00,484.00 9.00,484.00 9.00,516.00" />
+<line class="equip" x1="9.00" y1="524.00" x2="9.00" y2="476.00" />
+<line class="equip" x1="33.00" y1="516.00" x2="33.00" y2="484.00" />
+<polyline class="support" points="65.00,604.00 705.00,604.00 705.00,580.00 65.00,580.00 65.00,604.00" />
+<polyline class="support" points="137.00,580.00 185.00,580.00 177.00,556.00 145.00,556.00 137.00,580.00" />
+<polyline class="support" points="265.00,580.00 313.00,580.00 305.00,556.00 273.00,556.00 265.00,580.00" />
+<polyline class="support" points="385.00,580.00 545.00,580.00 545.00,556.00 385.00,556.00 385.00,580.00" />
+<circle class="support" cx="105.00" cy="592.00" r="7.20" />
+<circle class="support" cx="665.00" cy="592.00" r="7.20" />
+<line class="coupling" x1="297.00" y1="500.00" x2="401.00" y2="500.00" />
+<circle class="coupling" cx="345.00" cy="500.00" r="40.00" />
+<polyline class="coupling" points="305.00,540.00 353.00,540.00 385.00,524.00 385.00,476.00 353.00,460.00 305.00,460.00 305.00,540.00" />
+<polyline class="motor" points="401.00,548.00 521.00,548.00 545.00,532.00 545.00,468.00 521.00,452.00 401.00,452.00 401.00,548.00" />
+<polyline class="motor" points="377.00,532.00 401.00,532.00 401.00,468.00 377.00,468.00 377.00,532.00" />
+<circle class="motor" cx="545.00" cy="500.00" r="24.00" />
+<line class="motor" x1="433.00" y1="548.00" x2="433.00" y2="452.00" />
+<line class="motor" x1="457.00" y1="548.00" x2="457.00" y2="452.00" />
+<line class="motor" x1="481.00" y1="548.00" x2="481.00" y2="452.00" />
+<line class="motor" x1="505.00" y1="548.00" x2="505.00" y2="452.00" />
+<line class="motor" x1="529.00" y1="548.00" x2="529.00" y2="452.00" />
+<line class="pipe" x1="213.00" y1="420.00" x2="213.00" y2="276.00" />
+<line class="pipe" x1="237.00" y1="420.00" x2="237.00" y2="276.00" />
+<line class="pipe" x1="213.00" y1="276.00" x2="449.00" y2="276.00" />
+<line class="pipe" x1="237.00" y1="276.00" x2="449.00" y2="276.00" />
+<line class="pipe" x1="-199.00" y1="500.00" x2="9.00" y2="500.00" />
+<line class="pipe" x1="-199.00" y1="516.00" x2="9.00" y2="516.00" />
+<polyline class="valve" points="273.00,300.00 305.00,276.00 273.00,252.00 273.00,300.00" />
+<polyline class="valve" points="337.00,300.00 305.00,276.00 337.00,252.00 337.00,300.00" />
+<line class="valve" x1="305.00" y1="276.00" x2="305.00" y2="236.00" />
+<line class="valve" x1="290.60" y1="236.00" x2="319.40" y2="236.00" />
+<circle class="instrument" cx="329.00" cy="220.00" r="19.20" />
+<circle class="instrument" cx="385.00" cy="220.00" r="19.20" />
+<line class="instrument" x1="329.00" y1="239.20" x2="329.00" y2="276.00" />
+<line class="instrument" x1="385.00" y1="239.20" x2="385.00" y2="276.00" />
+<circle class="instrument" cx="-39.00" cy="436.00" r="19.20" />
+<line class="instrument" x1="-39.00" y1="452.00" x2="-39.00" y2="455.20" />
+<text class="label" x="105.00" y="52.00" font-size="27.20">P-7511A/B</text>
+<text class="label" x="105.00" y="92.00" font-size="19.20">VOC KO Drum Pump</text>
+<text class="label" x="377.00" y="388.00" font-size="14.40">Seal Plan 11/52</text>
+<text class="label" x="-239.00" y="436.00" font-size="14.40">FROM D-7511 BTM</text>
+<text class="label" x="318.60" y="216.80" font-size="14.40">PI</text>
+<text class="label" x="374.60" y="216.80" font-size="14.40">FI</text>
+<text class="label" x="-49.40" y="432.80" font-size="14.40">LI</text>
+<text class="note" x="105.00" y="652.00" font-size="15.20">NTS / PRELIMINARY / NON-RELEASE</text>
+<text class="note" x="105.00" y="632.00" font-size="12.00">HIFI visual canary; no installed scale</text>
+<text class="note" x="105.00" y="164.00" font-size="11.20">left axial suction / upward discharge</text>
+<text class="note" x="105.00" y="188.00" font-size="11.20">family topology + owner visual proportions</text>
+</svg>
+

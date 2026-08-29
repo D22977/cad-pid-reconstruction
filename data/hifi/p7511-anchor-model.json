@@ -1,0 +1,83 @@
+{
+  "protocol": "CADPID_HIFI_P7511_MODEL_V1",
+  "card_id": "CADPID-HIFI-P7511-CANARY-01",
+  "station": "P-7511A/B",
+  "equipment_class": "horizontal OH2 overhung process-pump visual reconstruction",
+  "drawing_status": [
+    "NTS",
+    "PRELIMINARY",
+    "NON-RELEASE"
+  ],
+  "normalized_envelope": {
+    "basis": "D is the visible pump-casing height in display/source-coordinate units; it is not an installed dimension.",
+    "D_units": 20,
+    "pump_body": {
+      "x": [0.0, 1.5],
+      "y": [0.0, 1.0],
+      "provenance": "FAMILY_PROPORTION_INFERENCE + VISUAL_REFERENCE_INFERENCE"
+    },
+    "shaft_centerline": {
+      "y": 0.5,
+      "provenance": "FAMILY_PROPORTION_INFERENCE + VISUAL_REFERENCE_INFERENCE"
+    },
+    "coupling": {
+      "center": [1.5, 0.5],
+      "visual_radius": 0.25,
+      "provenance": "VISUAL_REFERENCE_INFERENCE"
+    },
+    "motor": {
+      "x": [1.75, 2.75],
+      "y": [0.1, 0.9],
+      "provenance": "FAMILY_PROPORTION_INFERENCE + VISUAL_REFERENCE_INFERENCE"
+    },
+    "baseplate": {
+      "x": [-0.25, 3.75],
+      "y": [-0.2, 0.0],
+      "provenance": "FAMILY_PROPORTION_INFERENCE + VISUAL_REFERENCE_INFERENCE"
+    }
+  },
+  "source_coordinate_anchors": {
+    "pump_body": [[885, 0], [915, 20]],
+    "coupling_center": [915, 10],
+    "coupling_radius": 5,
+    "motor": [[920, 2], [940, 18]],
+    "suction": [[855, 10], [885, 10]],
+    "discharge": [[900, 20], [900, 45]]
+  },
+  "source_text": [
+    "P-7511A/B",
+    "VOC KO Drum Pump",
+    "FROM D-7511 BTM",
+    "Seal Plan 11/52",
+    "PI",
+    "FI",
+    "LI"
+  ],
+  "provenance_classes": [
+    "VERIFIED_PUBLISHED_DIMENSION",
+    "FAMILY_PROPORTION_INFERENCE",
+    "VISUAL_REFERENCE_INFERENCE",
+    "SOURCE_TEXT_EVIDENCE"
+  ],
+  "provenance_sources": {
+    "oh2_anchor": "Issue #24 comment 5460380680",
+    "control_authority": "Issue #3 comment 5460514157",
+    "reference_image_sha256": "B0B1AC51A1E452727DB231CEDAA0D9631FCE34D4FDB025C46F5DBDBDD8205F7A",
+    "verified_source_bridge": "cadpid/source-bridge-00: evidence/derived/verified-source-script-extract.txt"
+  },
+  "engineering_unknowns": [
+    "exact installed make and model",
+    "installed casing, nozzle, coupling, motor, and baseplate dimensions",
+    "nozzle connection size, rating, schedule, and flange details",
+    "motor frame, power, speed, and mounting details",
+    "materials, pressure class, flow, head, and process design basis",
+    "seal-plan design basis beyond the source label"
+  ],
+  "forbidden_claims": [
+    "manufacturer identity",
+    "installed dimensions",
+    "engineering acceptance",
+    "pressure, material, class, rating, flow, or head specification"
+  ]
+}
+
